@@ -315,3 +315,10 @@ function gameInit() {
 
 
 gameInit()
+
+// ERROR CORS
+app.UseCors(builder => builder
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader())
+    
