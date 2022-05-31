@@ -4,7 +4,8 @@ LUEGO INSTALAR LIVE SERVER Y EJECUTAR(ERORR POR CORS)
 # SOLUCION CON PYTHON:
 Ejecutar el terminal de tu sistema operativo e ingresar a la carpeta dada.
 Luego Ejecutar:
-En Mac y Linux:
+# En Mac y Linux:
 python -m SimpleHTTPServer
-Windows:
+# Windows:
 python -m http.server
+FINALMENTE ABRIR : "localhost:8000" y se ejecutara correctamente
